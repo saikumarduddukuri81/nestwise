@@ -1,0 +1,82 @@
+[
+  {
+    "feature": "City",
+    "importance_score": 0.6411,
+    "importance_pct": 48.07
+  },
+  {
+    "feature": "Super_Area_SqFt",
+    "importance_score": 0.4837,
+    "importance_pct": 36.28
+  },
+  {
+    "feature": "Locality_Type",
+    "importance_score": 0.1429,
+    "importance_pct": 10.71
+  },
+  {
+    "feature": "Age_of_Property",
+    "importance_score": 0.0308,
+    "importance_pct": 2.31
+  },
+  {
+    "feature": "Distance_to_City_Center_km",
+    "importance_score": 0.0268,
+    "importance_pct": 2.01
+  },
+  {
+    "feature": "Carpet_Area_SqFt",
+    "importance_score": 0.0073,
+    "importance_pct": 0.55
+  },
+  {
+    "feature": "Total_Floors",
+    "importance_score": 0.0007,
+    "importance_pct": 0.05
+  },
+  {
+    "feature": "Gated_Community",
+    "importance_score": 0.0002,
+    "importance_pct": 0.01
+  },
+  {
+    "feature": "Floor_Number",
+    "importance_score": 0.0001,
+    "importance_pct": 0.01
+  },
+  {
+    "feature": "Lift_Available",
+    "importance_score": -0.0,
+    "importance_pct": 0.0
+  },
+  {
+    "feature": "Property_Type",
+    "importance_score": -0.0002,
+    "importance_pct": 0.0
+  },
+  {
+    "feature": "Furnishing_Status",
+    "importance_score": -0.0003,
+    "importance_pct": 0.0
+  },
+  {
+    "feature": "BHK",
+    "importance_score": -0.0005,
+    "importance_pct": 0.0
+  },
+  {
+    "feature": "Parking",
+    "importance_score": -0.0008,
+    "importance_pct": 0.0
+  },
+  {
+    "feature": "Bathrooms",
+    "importance_score": -0.0009,
+    "importance_pct": 0.0
+  },
+  {
+    "feature": "Distance_to_Metro_km",
+    "importance_score": -0.0015,
+    "importance_pct": 0.0
+  }
+]

@@ -1,0 +1,182 @@
+{
+  "total_train_records": 80000,
+  "total_test_records": 20000,
+  "cities": [
+    "Mumbai",
+    "Delhi",
+    "Bangalore",
+    "Pune",
+    "Chandigarh",
+    "Chennai",
+    "Hyderabad",
+    "Kolkata",
+    "Ahmedabad",
+    "Jaipur"
+  ],
+  "city_data": [
+    {
+      "city": "Mumbai",
+      "mean_price": 308.91,
+      "median_price": 232.54
+    },
+    {
+      "city": "Delhi",
+      "mean_price": 227.0,
+      "median_price": 170.18
+    },
+    {
+      "city": "Bangalore",
+      "mean_price": 151.24,
+      "median_price": 113.97
+    },
+    {
+      "city": "Pune",
+      "mean_price": 133.32,
+      "median_price": 99.56
+    },
+    {
+      "city": "Chandigarh",
+      "mean_price": 126.94,
+      "median_price": 95.97
+    },
+    {
+      "city": "Chennai",
+      "mean_price": 123.16,
+      "median_price": 92.82
+    },
+    {
+      "city": "Hyderabad",
+      "mean_price": 115.11,
+      "median_price": 85.8
+    },
+    {
+      "city": "Kolkata",
+      "mean_price": 99.4,
+      "median_price": 74.7
+    },
+    {
+      "city": "Ahmedabad",
+      "mean_price": 76.15,
+      "median_price": 56.73
+    },
+    {
+      "city": "Jaipur",
+      "mean_price": 63.0,
+      "median_price": 46.47
+    }
+  ],
+  "locality_data": [
+    {
+      "locality": "Affordable",
+      "mean_price": 56.52,
+      "median_price": 45.55,
+      "count": 19972
+    },
+    {
+      "locality": "Mid-Range",
+      "mean_price": 115.45,
+      "median_price": 93.75,
+      "count": 40243
+    },
+    {
+      "locality": "Premium",
+      "mean_price": 284.77,
+      "median_price": 230.64,
+      "count": 19785
+    }
+  ],
+  "property_type_data": [
+    {
+      "type": "Apartment",
+      "mean_price": 143.23,
+      "median_price": 96.93,
+      "count": 20049
+    },
+    {
+      "type": "Builder Floor",
+      "mean_price": 141.5,
+      "median_price": 96.78,
+      "count": 20022
+    },
+    {
+      "type": "Independent House",
+      "mean_price": 142.23,
+      "median_price": 96.62,
+      "count": 19898
+    },
+    {
+      "type": "Villa",
+      "mean_price": 143.48,
+      "median_price": 96.24,
+      "count": 20031
+    }
+  ],
+  "bhk_data": [
+    {
+      "bhk": "1 BHK",
+      "mean_price": 142.57,
+      "median_price": 98.75,
+      "count": 11881
+    },
+    {
+      "bhk": "2 BHK",
+      "mean_price": 142.92,
+      "median_price": 95.69,
+      "count": 24086
+    },
+    {
+      "bhk": "3 BHK",
+      "mean_price": 141.56,
+      "median_price": 95.91,
+      "count": 22342
+    },
+    {
+      "bhk": "4 BHK",
+      "mean_price": 143.07,
+      "median_price": 96.99,
+      "count": 11983
+    },
+    {
+      "bhk": "5 BHK",
+      "mean_price": 142.47,
+      "median_price": 96.72,
+      "count": 6465
+    },
+    {
+      "bhk": "6 BHK",
+      "mean_price": 146.34,
+      "median_price": 99.11,
+      "count": 3243
+    }
+  ],
+  "price_distribution": [
+    {
+      "range": "< 50 L",
+      "count": 17568
+    },
+    {
+      "range": "50 L - 1 Cr",
+      "count": 23739
+    },
+    {
+      "range": "1 Cr - 1.5 Cr",
+      "count": 14001
+    },
+    {
+      "range": "1.5 Cr - 2 Cr",
+      "count": 7806
+    },
+    {
+      "range": "2 Cr - 3 Cr",
+      "count": 8789
+    },
+    {
+      "range": "3 Cr - 5 Cr",
+      "count": 5621
+    },
+    {
+      "range": "> 5 Cr",
+      "count": 2476
+    }
+  ]
+}

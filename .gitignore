@@ -1,0 +1,30 @@
+# Node
+node_modules/
+/dist/
+/build/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv/
+env/
+
+# Models / data artefacts (large)
+ml/models/*.joblib
+ml/models/*.pkl
+ml/models/*.pickle
+
+data/*.csv
+
+# Logs & notebooks
+*.log
+*.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db

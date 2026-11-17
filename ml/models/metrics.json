@@ -1,0 +1,102 @@
+{
+  "best_model": "Gradient Boosting",
+  "cross_validation": {
+    "folds": 5,
+    "mean_r2": 0.7837,
+    "std_r2": 0.0158,
+    "scores": [
+      0.8042,
+      0.7637,
+      0.787,
+      0.796,
+      0.7674
+    ]
+  },
+  "models_comparison": {
+    "Linear Regression": {
+      "train_mae": 47.72,
+      "train_rmse": 84.23,
+      "train_r2": 0.671,
+      "val_mae": 47.94,
+      "val_rmse": 86.03,
+      "val_r2": 0.6657,
+      "train_time_sec": 0.25
+    },
+    "Decision Tree": {
+      "train_mae": 30.77,
+      "train_rmse": 56.24,
+      "train_r2": 0.8534,
+      "val_mae": 38.82,
+      "val_rmse": 81.83,
+      "val_r2": 0.6975,
+      "train_time_sec": 0.95
+    },
+    "Random Forest": {
+      "train_mae": 22.95,
+      "train_rmse": 43.96,
+      "train_r2": 0.9104,
+      "val_mae": 33.83,
+      "val_rmse": 69.99,
+      "val_r2": 0.7788,
+      "train_time_sec": 10.32
+    },
+    "Gradient Boosting": {
+      "train_mae": 32.15,
+      "train_rmse": 63.78,
+      "train_r2": 0.8114,
+      "val_mae": 33.05,
+      "val_rmse": 68.8,
+      "val_r2": 0.7862,
+      "train_time_sec": 3.24
+    },
+    "XGBoost": {
+      "train_mae": 30.25,
+      "train_rmse": 56.88,
+      "train_r2": 0.85,
+      "val_mae": 33.13,
+      "val_rmse": 69.35,
+      "val_r2": 0.7828,
+      "train_time_sec": 1.24
+    }
+  },
+  "feature_names": {
+    "numerical": [
+      "BHK",
+      "Bathrooms",
+      "Super_Area_SqFt",
+      "Carpet_Area_SqFt",
+      "Floor_Number",
+      "Total_Floors",
+      "Age_of_Property",
+      "Parking",
+      "Lift_Available",
+      "Gated_Community",
+      "Distance_to_Metro_km",
+      "Distance_to_City_Center_km"
+    ],
+    "categorical": [
+      "City",
+      "Locality_Type",
+      "Property_Type",
+      "Furnishing_Status"
+    ],
+    "all": [
+      "City",
+      "Locality_Type",
+      "Property_Type",
+      "BHK",
+      "Bathrooms",
+      "Super_Area_SqFt",
+      "Carpet_Area_SqFt",
+      "Floor_Number",
+      "Total_Floors",
+      "Age_of_Property",
+      "Furnishing_Status",
+      "Parking",
+      "Lift_Available",
+      "Gated_Community",
+      "Distance_to_Metro_km",
+      "Distance_to_City_Center_km"
+    ]
+  }
+}
